@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { ThemeProvider } from '@mui/material/styles';
 import Box from '@mui/material/Box';
 import CssBaseline from '@mui/material/CssBaseline';
-import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
 import theme from './theme';
 import SideMenu from './components/SideMenu';
 import SellPage from './pages/SellPage';
